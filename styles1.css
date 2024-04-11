@@ -1,0 +1,23 @@
+body{
+    font-family:'Lucida Sans';
+    color: #ffe9e3;
+    background: linear-gradient(to right, #352f44,#5c5470, #dbd8e3);    
+    margin-top: 5pt;
+    margin-right: 60pt;
+    margin-left: 60pt;
+    margin-bottom: 20pt;
+}
+a{
+    color: #ffe9e3; 
+    width:100%
+}
+
+ul{
+    font-size: 1.3rem;
+}
+.text{
+    font-size: 0.8rem;
+}
+img{
+    width: 30%;
+}
