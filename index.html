@@ -10,33 +10,44 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="particles-js">
-        <div class="header">
+  <div id="topHeader">    
+      <div class="navbar"> 
+        <nav class="nav">  
+            <a class="navbar nav" href="./index.html"><button>Home</button></a>
+            <a class="navbar nav" href="./myprojects.html"><button>Projects</button></a>
+            <a class="navbar nav" href="./mytechskills.html"><button >Technical Skills</button></a>    
+            <a class="navbar nav" href="./mycerts.html"><button>AWS</button></a>
+            <a class="navbar nav" href="./myresume.html"><button>Resume</button></a>  
+        </nav>        
+      </div>
+      
+        <div class="header">            
             <h1>
               <span class="site-title">KHUSHBOO SINGH</span>
             </h1>
+            
             <h2><span class="site-description">Programmer • Web Developer • AWS Certified Solution Architect</span>
             </h2>
             <div class="header-icons">
               <a target="_blank" href="https://www.linkedin.com/in/khushboo-singh/">
-                <i class="fa fa-linkedin-square" style="font-size:60px; color:aliceblue" ></i>
+                <i class="fa fa-linkedin-square" style="font-size:50px; color:aliceblue" ></i>
               </a>
               <a target="_blank" href="https://github.com/Coding-byKS?tab=repositories">
-                <i class="fa fa-github" style="font-size:60px; color:aliceblue" ></i>
+                <i class="fa fa-github" style="font-size:50px; color:aliceblue" ></i>
               </a>
               <a target="_blank" href="./myresume.html">
-                <i class="fa fa-file-pdf-o" style="font-size:50px;color:red" ></i>
+                <i class="fa fa-file-pdf-o" style="font-size:45px;color:red" ></i>
               </a>
               <a href="mailto:khushboo.singh43@gmail.com" target="_blank">
-                <i class="fa fa-envelope" style="font-size:60px; color:aliceblue" ></i>
+                <i class="fa fa-envelope" style="font-size:50px; color:aliceblue" ></i>
               </a>
             </div>
-            <div class="header-links">
-                <h4>
-                <a class="link" href="#middle" data-scroll>About Me</a>
-                <a class="link" href="./myprojects.html">Projects</a>
-                </h4>
-              </div>
+            <div class="header-links">  
+                <nav class="header-nav">             
+                  <a class="link" href="#middle" data-scroll>About Me</a>
+                  <a class="link" href="./myprojects.html">Projects</a> 
+                </nav>               
+            </div>
             <div class="pulse">
             <a class="down" href="#middle" data-scroll><i class="icon fa fa-chevron-down"></i></a>
             </div>
@@ -45,7 +56,7 @@
     </div>
     
     <div id="middle">        
-        <h1>Khushboo's Journal</h1>
+        <h2>Khushboo's Journal</h2>
         <img class="topimage" src="./images/mypicture.jpg" alt="professional picture of Khushboo" width="20%"
         style="border-radius: 50%"><br/>                
         <p class="ptext">
@@ -60,49 +71,41 @@
             <li>My Resume</li>
             </ul>
         </p>
+    </div>
         <div class="skills">
-            <div class="tech">
+          <div class="row">
+            <div class="tech">            
               <h2>Languages</h2>              
               <i class="fa-brands fa-js" style="color: #FFFF00; font-size: 80px;"></i>              
               <img class="csharp" src="./images/c-sharp.svg"/>
               <i class="fa-brands fa-python" style="font-size: 80px;"></i>
               <p>Languages I use for programming; for Web and App development.</p>
-            </div>    
-           
-            <div class="tech">
+            </div>
+            <div class="tech">           
               <h2>Front-End</h2>
               <i class="fa-brands fa-react" style="color:#61dbfb; font-size: 80px;"></i>              
               <i class="fa-brands fa-html5" style="color:#f06529; font-size: 80px;"></i>
               <i class="fa fa-css3" style="color:#2965f1; font-size: 80px;" aria-hidden="true"></i>
               <p>My favorite tools for front-end web development and design.</p>
-            </div>    
-            
+            </div>            
+          </div>  
+          <div class="row">             
             <div class="tech">
               <h2>Back-End</h2>
               <i class="fa-brands fa-node-js" style="color:#3c873a; font-size: 80px;"></i>
-              <img class="csharp" src="./images/express.png"/>
-              <img class="csharp" src="./images/mongodb.png"/>
+              <img class="express" src="./images/express.png"/>
+              <img class="mongodb" src="./images/mongodb.png"/>
               <i class="devicon-postgresql-plain-wordmark colored"></i>
               <p>Back-end web programming and database architecture Technologies I use.</p>
-            </div>
-    
+            </div>    
             <div class="tech">
-              <h2>Tools</h2>
-              <i class="devicon-git-plain-wordmark colored"></i>
-              <i class="devicon-visualstudio-plain colored"></i>
-              <i class="devicon-github-plain-wordmark colored"></i>
-              <i class="devicon-docker-plain-wordmark colored"></i>
-              <p>My favorite tools for version control, code editing, and container orchestration.</p>
+              <h2>Tools</h2>              
+              <img class="vscode" src="./images/vscode.png"/>
+              <i class="fab fa-github" style="font-size: 70px;"></i>              
+              <p>My favorite tools for version control and code editing.</p>
             </div>
           </div>
-        </section>
-    <div class="button">
-        <a href="./myprojects.html"><button>My Projects</button></a>
-        <a href="./mytechskills.html"><button >My Technical Skills</button></a>    
-        <a href="./mycerts.html"><button>My Certificates</button></a>
-        <a href="./myresume.html"><button>My Resume</button></a>
-    </div>
-</div>
+        </div>      
     </p>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="./index.js"></script>
