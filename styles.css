@@ -79,6 +79,7 @@ a.link{
     background-image: url(images/middle.jpg);
     background-size: cover;
     width: 100%;  
+    height: 100%;
     font-size: 20px;
     color: #fff;
     text-align: center;
@@ -86,12 +87,23 @@ a.link{
     padding-top: 1px;  
     padding-bottom: 1px;    
     border: 2px solid #fdffcd;
+    display: flex;
+    flex-direction: column;
 }
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutme h2{
+    text-align: center; 
+}
+
 p.ptext{
     text-align: left;
     color: #fff;
     margin-left: 120px;
-    margin-right: 120px;
+    margin-right: f;
     font-size: 15px;
     font-weight: 200;
     font-family: 'Lucida Sans';

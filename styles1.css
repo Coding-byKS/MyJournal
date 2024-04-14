@@ -36,6 +36,7 @@
     color: #fff;
     background-image: url(images/middle.jpg);
     background-size: cover;
+    
 }
 .row {
     display: flex;
@@ -43,6 +44,9 @@
     flex-wrap: wrap;
     width: 100%;
     padding-top: 10pt;
+    
+
+    
   }
   
   .column {
@@ -52,17 +56,20 @@
     flex: 1;
     padding-left: 5px;
     padding-right: 5px;
+    
+    
   }
   
   .column-level {
    
-    height: 350px;
+    height: 100%;
     border-width: 3px;
     border-color:#f8f398;
     border-style: solid;
     border-radius: 10px;
     display: flex;
-    flex-direction: column;     
+    flex-direction: column;    
+    
     
   } 
   
