@@ -95,6 +95,9 @@ a.link{
     flex-direction: column;
     align-items: center;
 }
+.aboutme img{
+    width:20%;
+}
 .aboutme h2{
     text-align: center; 
 }
@@ -103,7 +106,7 @@ p.ptext{
     text-align: left;
     color: #fff;
     margin-left: 120px;
-    margin-right: f;
+    margin-right: 120px;
     font-size: 15px;
     font-weight: 200;
     font-family: 'Lucida Sans';
