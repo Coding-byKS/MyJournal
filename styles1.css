@@ -2,7 +2,7 @@
     background-image: url(images/background.jpg); 
     background-size: cover; 
     width: 100%;
-    height: 450px;
+    height: 100vh;
 
 }
     
@@ -31,8 +31,9 @@
     
 }
 .main{
+    border: 2px solid #fdffcd;
     font-family:'Lucida Sans';
-    color:#352f44;
+    color: #fff;
     background-image: url(images/middle.jpg);
     background-size: cover;
 }
@@ -49,36 +50,49 @@
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-    padding-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   
   .column-level {
    
     height: 350px;
     border-width: 3px;
-    border-color: black;
+    border-color:#f8f398;
     border-style: solid;
     border-radius: 10px;
-  }
-  
-  
-a{
-    color:#352f44;
-    font-family:'Lucida Sans';
+    display: flex;
+    flex-direction: column;     
     
+  } 
+  
+/* .column-level a{
+    color: #fff;
+    font-size: 10px;
+    font-family:'Lucida Sans';          
+} */
+.ele{
+    margin-top: 5%;
+    text-align: center;
+    height: 100%;   
 }
+.eletext{
+    text-align: center;
+    margin: 10%;
+    color: #fff;
+    font-size: 15px;
+    font-family:'Lucida Sans'; 
 
-ul{
-    font-size: 1.3rem;
 }
-
-.text{
-    font-size: 0.8rem;
+.eletext a{
+    color: #fff;
+    font-size: 15px;
+    font-family:'Lucida Sans';
 }
 img{
-    width: 100%;
+    width: 80%;
+    height: 80%;   
 }
-
 .pulse{    
     width:100%;
     text-align: center;    
@@ -95,13 +109,13 @@ img{
     }
 
     .navbar {
-        margin-top: 10px;
-        display:flex;
+        margin-top: 10px;        
         padding-top: 5px;
         padding-right: 5px; 
         padding-bottom: 5px;    
         height: 50px;
         width: 100%;
+        display:flex;
         justify-content: flex-end;
     }
     .nav{
@@ -125,4 +139,7 @@ img{
       button:hover{
         background-color: #ffe9e3;
         color: #352f44;
+    }
+    img:hover{
+        border: 1px solid #f8f398;
     }
