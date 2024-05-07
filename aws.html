@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        
+        .certlist{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;         
+
+        }
+        .certrow{
+            display: flex;
+            justify-content: center;
+            padding-top: 2%;    
+        }
+        .certrow a{
+            font-size: 20px;
+            color: black;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>My Certificates</h1>
-    <img src="./images/AWSSAA.pdf" alt=""AWS Solution Architect Certificate />
+    
+    
+    <div class="certlist">   
+        <div class="certrow">  <h1>My Certificates</h1> </div> 
+        <div class="certrow">
+        <img src="./images/AWSSAA.png" width="800px"alt="AWS Solution Architect Certificate" />
+    </div>
+    <div class="certrow">  
+        <a href="https://awscertsforkswebsite2024.s3.amazonaws.com/AWS+Certified+Solutions+Architect+-+Associate+certificate.pdf">Click HERE to access certificate!</a>
+    </div>
+    <div class="certrow">
+        <img src="./images/AWSCLF.png" width="800px" alt="AWS Cloud Practioner Certificate" />
+    </div>
+    <div class="certrow">  
+        <a href="https://awscertsforkswebsite2024.s3.amazonaws.com/AWS+Certified+Cloud+Practitioner+certificate.pdf">Click HERE to access certificate!</a>
+    </div>
+    </div>
 </body>
 </html>
